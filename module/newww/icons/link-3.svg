@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" zoomAndPan="magnify" viewBox="0 0 375 374.999991" height="500" preserveAspectRatio="xMidYMid meet" version="1.0">
-  <!-- Define the filter for the white glow -->
+  <!-- Define a stronger white glow filter -->
   <filter id="white-glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="white" />
     <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="white" />
   </filter>
 
